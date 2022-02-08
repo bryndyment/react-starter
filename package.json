@@ -38,10 +38,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "eslint:fix": "npm run eslint -- --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
